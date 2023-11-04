@@ -1,6 +1,6 @@
 <?php
 
-$conn = mysqli_connect("localhost:3306","root","","php dasar");
+$conn = mysqli_connect("localhost:3306","root","","daftar_barang_toko_shavira");
 
 function query($query){
     global $conn;
